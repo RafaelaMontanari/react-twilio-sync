@@ -1,6 +1,6 @@
 function request (anotationTitle, anotation) {
-  const accountSid = 'AC71230577c4c3fcffaf94a923d26556c6';
-  const authToken = 'bc87729c0aab94733a126e6449fdda4c';
+  const accountSid = 'AC7...';
+  const authToken = '...';
   const client = require('twilio')(accountSid, authToken);
 
   client.sync.services('IS13c307b864999ec2fd76068a0b53825b')

@@ -2,8 +2,8 @@ import axios from 'axios';
 import { Buffer } from 'buffer'
 //const rp = require("request-promise");
 
-const accountSid = 'AC71230577c4c3fcffaf94a923d26556c6';
-const authToken = 'bc87729c0aab94733a126e6449fdda4c';
+const accountSid = 'AC7...';
+const authToken = '...';
 const base64Token = Buffer.from(`${accountSid}:${authToken}`).toString("base64");
 
 const api = axios.create ({

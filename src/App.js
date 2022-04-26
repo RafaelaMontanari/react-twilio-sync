@@ -7,8 +7,8 @@ import { Buffer } from 'buffer'
 
 function App() {
 
-  const accountSid = 'AC71230577c4c3fcffaf94a923d26556c6';
-  const authToken = 'bc87729c0aab94733a126e6449fdda4c';
+  const accountSid = 'AC7...';
+  const authToken = '...';
   const serviceSid = 'IS13c307b864999ec2fd76068a0b53825b'
   const mapSid = 'MP6b1cde8237674a62bac02245464d7367'
   const base64Token = Buffer.from(`${accountSid}:${authToken}`).toString("base64");
