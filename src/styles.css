@@ -1,0 +1,40 @@
+
+.container{
+    height: 100vh;
+    padding-top: 20PX;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#06033A,#1004E1)
+}
+
+.containerHeader h1{
+    color: #ffffff
+}
+
+.containerInput{
+    margin-top: 20px;
+    width: 50%;
+}
+
+.containerInput input {
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+}
+.containerInput textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    border-radius: 5px;
+}
+
+.saveButton{
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #0263E0;
+    border-radius: 5px;
+}
